@@ -22,6 +22,7 @@ func main() {
 	variable3++
 	fmt.Println(variable3, *pointer) // *variable - Makes an dereference - gets the memory address value
 
+	// To assign a memory address of a pointer value to a variable
 	variable4 := *pointer
 	fmt.Println(variable4, *pointer)
 }
