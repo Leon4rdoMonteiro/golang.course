@@ -40,4 +40,14 @@ func main() {
 
 	fmt.Println("ARRAY TYPE", reflect.TypeOf(fruitsArray))
 	fmt.Println("SLICE TYPE", reflect.TypeOf(slice))
+
+	// Internal Arrays
+	slice1 := make([]float32, 10, 15)
+	// An interna array is created  with 15 positions
+	// After, an slice is generated from this array with 10 positions
+	// If capacity is exceed, a the internal array capacity will double in size
+	// We always will have capacity using slices
+	fmt.Println(slice1)
+	fmt.Println("Slice Length", len(slice1))
+	fmt.Println("Slice Capacity", cap(slice1))
 }
