@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Function with named return
 func mathCalcs(n1, n2 int8) (sum int8, sub int8) {
 	sum = n1 + n2
 	sub = n1 - n2
