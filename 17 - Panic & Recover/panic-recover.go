@@ -22,7 +22,7 @@ func isApprovedStudent(grade1, grade2 float32) bool {
 		return false
 	}
 
-	// Stops the program execution
+	// Stops the program execution - Is not an error
 	panic("The result is 6!")
 }
 
